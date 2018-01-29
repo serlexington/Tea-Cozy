@@ -18,7 +18,7 @@ header{
 }
 nav span{
   display: inline-block;
-  padding: 20px 10px 20px 0;
+  padding: 20px 0px 20px 0;
   margin-left: 60px;
   text-decoration:underline;
   text-align: right;
@@ -31,4 +31,30 @@ nav span{
 }
 nav a{
   color: seashell;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission{
+  background-image: url(./images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin-left: 60px;
+}
+.content{
+  width: 1200px;
+  height: 130px;
+  background-color: black;
+  margin-top: 300px;
+}
+.products{
+  height: 700px;
+  width: 1000px;
+  margin-left: 150px;
+  padding-top: 70px;
+}
+.picture img{
+  display: flex;
 }
